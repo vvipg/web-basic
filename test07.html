@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.mainfr{
+		width: 650px;
+		margin: 0px auto;
+	}
+	
+</style>
+</head>
+<body>
+	<form method="GET" action="ex01.html" name="frm" class="mainfr">
+		<h1 style="text-align: center; background-color: orange; padding: 12px;">join</h1>
+		<div style="float: left; margin-top: 20px; padding: 20px; border: 1px solid gray;">
+			<div style="float: lelft; padding-bottom: 10px;">		
+				<div style="width: 120px; text-align: right; float: left;">
+					<label for="id">i d : </label>
+				</div>
+				
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<input style="width: 412px; height: 18px;"type="text" name="id" placeholder="아이디를 입력하세요!" required>
+				</div>
+			</div>
+			
+			<div style="float: left; padding-bottom: 10px;">
+				<div style="width: 120px; text-align: right; float: left;">
+					<label for="id">p w : </label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<input style="width: 412px; height: 18px;" type="password" name="pw" placeholder="아이디를 입력하세요!" required>
+				</div>
+			</div>
+			<div style="float: left; padding-bottom: 10px;">
+				<div style="width: 50px; text-align: right; float: left;">
+					<label for="id">gender : </label>
+				</div>
+				<div style="width: 428px; padding-left: 16px; float: left;">
+					<div style="width: 50%; float: left; text-align: center;">
+						<input type="radio" name="gen" id="mgen" value="m">
+						<label for="mgen">남 자</label>
+					</div>
+					<div style="width: 50%; float: left; text-align: center;">
+						<input type="radio" name="gen" id="mgen" value="f">
+						<label for="mgen">여 자</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="clear: left; margin-top: 20px; text-align: center;">
+			<input type="reset" id="rbtn" value="reset"> 
+			<input type="submit" id="rbtn" value="submit"> 
+		</div>
+	</form>
+</body>
+</html>
+
+
